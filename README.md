@@ -25,7 +25,7 @@ pip install opencv-python numpy
 ### 2. Run the App
 Execute the script with:
 ```bash
-python main.py
+python imageClassification.py
 ```
 
 ### 3. Explanation
@@ -37,9 +37,11 @@ python main.py
 ## Code Structure
 ```plaintext
 ├── imageQuery/       # Folder containing reference images
-├── maybe/            # Folder containing test images
-├── main.py           # Main script
+├── maybe/            # Folder containing extra images
+├── imageTrain/       # Folder containing test images
+├── imageClassification.py           # Main script
 ├── README.md         # Project documentation
+plus extra file for learning purposes
 ```
 
 ## Example Output
@@ -51,7 +53,6 @@ Matched ID: 1
 ```
 
 ## Future Improvements
-- Improve accuracy using **FLANN-based matcher**
 - Allow real-time detection via **webcam or video feed**
 - Implement **GUI for user interaction**
 
